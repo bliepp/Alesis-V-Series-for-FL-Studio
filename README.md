@@ -2,10 +2,13 @@
 ![Layout](layout.png)
 Source: Screenshot of Alesis V25 Editor
 
+
 ## List of controllers
 Since the Alesis V25, the Alesis V49 and the Alesis V61 are basically the same controller only differing in the number of keys only one device script is needed.
 
-__Right now the configurations for the V49 and the V61 are untestet. This isn't a problem as they are basically the default configurations with the switches set to momentary mode instead of toggle mode as well as linear velocity curve for the keys and drum pads (Curve 1).__
+
+__Right now the configuration for the V49 is untestet (thanks to [@cesarm9](https://github.com/cesarm9) for testing it on the V61). This isn't a problem as it is basically the default configurations with the switches set to momentary mode instead of toggle mode as well as linear velocity curve for the keys and drum pads (Curve 1).__
+
 
 ## Features
 The controllers from the Alesis V Series are a MIDI keyboards with
@@ -16,12 +19,13 @@ The controllers from the Alesis V Series are a MIDI keyboards with
 * pitch wheel
 * mod wheel
 
+
 ## Installation
 Install the script (`device_Alesis_V_Series.py`) to the user data folder (Should look like this C:\Users\yourusername\Documents\Image-Line\Data\FL Studio\Settings\Hardware\Alesis\device_Alesis_V_Series.py) as described in the main `README.md`. Next send the configuration file (`configuration.vXX`) to the controller using the manufacturers utility ([Alesis V25 Editor](https://alesis.com/products/view2/v25)/[Alesis V49 Editor](https://alesis.com/products/view2/v49)/[Alesis V61 Editor](https://alesis.com/products/view2/v61)).
 
+
 ## How to activate configuration
 Go to MIDI settings in FL and Alesis V Series should now show up in the controller type
-
 
 
 ## Overall settings
