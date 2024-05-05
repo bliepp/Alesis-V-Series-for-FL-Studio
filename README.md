@@ -17,7 +17,12 @@ The controllers from the Alesis V Series are a MIDI keyboards with
 * mod wheel
 
 ## Installation
-Install the script (`device_Alesis_V_Series.py`) to the user data folder as described in the main `README.md`. Next send the configuration file (`configuration.vXX`) to the controller using the manufacturers utility ([Alesis V25 Editor](https://alesis.com/products/view2/v25)/[Alesis V49 Editor](https://alesis.com/products/view2/v49)/[Alesis V61 Editor](https://alesis.com/products/view2/v61)).
+Install the script (`device_Alesis_V_Series.py`) to the user data folder (Should look like this C:\Users\yourusername\Documents\Image-Line\Data\FL Studio\Settings\Hardware\Alesis\device_Alesis_V_Series.py) as described in the main `README.md`. Next send the configuration file (`configuration.vXX`) to the controller using the manufacturers utility ([Alesis V25 Editor](https://alesis.com/products/view2/v25)/[Alesis V49 Editor](https://alesis.com/products/view2/v49)/[Alesis V61 Editor](https://alesis.com/products/view2/v61)).
+
+## How to activate configuration
+Go to MIDI settings in FL and Alesis V Series should now show up in the controller type
+
+
 
 ## Overall settings
 The velocity curves are adjusted to make it feel more responsive.
